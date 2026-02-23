@@ -1,6 +1,6 @@
-*{
+/* *{
     border: 1px solid red; 
-}
+} */
 .title{
     text-align: center;
     font-size: 46px;
@@ -19,16 +19,26 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    gap: 8px;
+    padding: 12px;
+}
+
+.play-container > .sub-container {
     height: 200px; 
 }
 
 .buttons{
     display: flex;
     flex-direction: column;
+    gap: 4px;
 }
 
 .subtitle{
     text-align: center;
     font-size: 24px;
     font-weight: bold;
+}
+
+.message{
+    text-align: center;
 }
