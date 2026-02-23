@@ -93,6 +93,7 @@ function resetGame(){
 
     humanScore = 0; 
     computerScore = 0; 
+    updateScores();
     updateComputerChoiceText("Computer's choice")
     updateMessage("New game has started. Make your choice");
 }
